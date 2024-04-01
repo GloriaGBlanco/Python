@@ -12,7 +12,6 @@ print(mercado)  #  variavel mercado com lista
 
 print(f'tamanho da lista: {len(mercado)}')          # tamanho da lista: 4
 print(f'endereço da palavra suco: {mercado.index('suco')}') # endereço da letra ovos:
-#print(f'endereço da letra b: {mercado.index('b')}') # mensagem erro proq nao tem letra b
 
 i = 0
 # Append adicionar um item ao final da lista
@@ -21,14 +20,7 @@ while i < len(mercado):
         if mercado[i] == (adicionar):
             print(f'O item {mercado[i]} ja esta na lista , te achei na  {i+1} posição da lista)')
             break
-        #else:
-        #    if i > len(mercado): 
-        #        mercado.append(adicionar)    # aguarda usuário digitar uma nova marca e inclui no final da lista
-        #        print('\n')  # imprimi uma linha
-        #        print(mercado) # imprimi a lista com novo item incluido
-        #        break
         i +=1
-#else:
         if i >= len(mercado): 
                 mercado.append(adicionar)    # aguarda usuário digitar uma nova marca e inclui no final da lista
                 print('\n')  # imprimi uma linha
@@ -37,11 +29,6 @@ while i < len(mercado):
         
 print('\n')  # imprimi uma linha
 print(mercado) # imprimi a lista com novo item incluido                
-# print(f"O item '{var.lower()}' não está na lista")
-
-#mercado.append(adicionar)    # aguarda usuário digitar uma nova marca e inclui no final da lista
-#print('\n')  # imprimi uma linha
-#print(mercado) # imprimi a lista com novo item incluido
 
 # verificar a existencia de um nome na lista
 i=0
@@ -49,8 +36,8 @@ i=0
 print('*********************************************')
 print('\n')
 
+# verificar a existencia de um nome na lista, se nao tiver inclui
 
-# verificar a existencia de um nome na lista
 var = input('Informe um item : ')
 if var.lower() in mercado:
     print(f"O item '{var.lower()}' está na lista")
@@ -65,8 +52,7 @@ if var.lower() in mercado:
 else:
     print(f"O item '{var.lower()}' não está na lista")
     
-# verificar a existencia de um nome na lista que usuário incluiu
-
+# verificar a existencia de um nome na lista que usuário incluiu e fala qual posicao
 
 print('*********************************************')
 print('\n')
@@ -80,5 +66,3 @@ while ii < len(mercado):
     elif (ii+1) == len(mercado): 
          print(f'OIeee {var1} , não te achei na lista')   
     ii +=1
-
-
