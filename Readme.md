@@ -1,2 +1,1 @@
-Este repositório tem prática de códigos em aulas, Python, Html, Css, JavaS, PowerBI, etc...
-Além de outros projetos que encontrei como sugestão no youtube, instagram e linkedin
+Este repositório tem prática de códigos em Python de aulas e de outros projetos que encontrei como sugestão no youtube, instagram e linkedin
